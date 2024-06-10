@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Lookup Result</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        table {
+            width: 50%;
+            border-collapse: collapse;
+        }
+        th, td {
+            padding: 10px;
+            border: 1px solid #ddd;
+            text-align: left;
+        }
+        th {
+            background-color: #f4f4f4;
+        }
+    </style>
+</head>
+<body>
+    <h1>Lookup Result for Phone Number</h1>
+    <table>
+        <tr>
+            <th>Carrier Name</th>
+            <td>{{ carrier_name }}</td>
+        </tr>
+        <tr>
+            <th>Carrier Type</th>
+            <td>{{ carrier_type }}</td>
+        </tr>
+        <tr>
+            <th>Caller Name</th>
+            <td>{{ caller_name }}</td>
+        </tr>
+        <tr>
+            <th>Caller Type</th>
+            <td>{{ caller_type }}</td>
+        </tr>
+    </table>
+</body>
+</html>
